@@ -1,0 +1,57 @@
+.formulario{
+    border: 2pt solid #257e25;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.formulario .botao{
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    background-color: #257e25;
+    color: #fff;
+}
+
+.meioContato{
+    display: flex;  
+}
+
+.imagem{
+    float: right;
+}
+
+.rodape{
+    margin-top: 2%;
+    border-top: 1pt solid #257e25;
+    display: flex;
+    justify-content: space-around   ;
+    padding: 1%;
+}
+
+.iconesRedes{
+    margin: 10%;
+    width: 1cm;    
+}
+
+.iconesRodape{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pAgencia{
+    margin-top: auto;
+    color: #257e25;
+}
+
+@media screen and (max-width: 768px){
+    .meioContato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
