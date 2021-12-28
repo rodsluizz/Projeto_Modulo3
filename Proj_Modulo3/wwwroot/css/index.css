@@ -1,0 +1,36 @@
+.parteMeioSite {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape {
+    margin-top: 2%;
+    border-top: 1pt solid #257e25;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.iconesRedes {
+    margin: 10%;
+    width: 1cm;
+}
+
+.iconesRodape {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pAgencia {
+    margin-top: auto;
+    color: #257e25;
+}
+
+@media screen and (max-width: 768px) {
+    .parteMeioSite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Proj_Modulo3</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Proj_Modulo3.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/css/index.css"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" asp-action="Index" asp-controller="Home">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" asp-action="Create" asp-controller="destinos">Cadastro</a></li>
+                  <li><a class="dropdown-item" asp-action="Index" asp-controller="destinos">Consulta</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Promoções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" asp-action="Create" asp-controller="promocoes">Cadastro</a></li>
+                  <li><a class="dropdown-item" asp-action="Index" asp-controller="promocoes">Consulta</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" asp-action="contato">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Digite um destino..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="rodape">
+        <p id="pAgencia"><b>Agência de viagens, 2021.</b></p>
+        <div class="iconesRodape">
+          <img src="/imagens/facebook-brands.svg" alt="" class="iconesRedes">
+          <img src="/imagens/instagram-brands.svg" alt="" class="iconesRedes">
+          <img src="/imagens/twitter-brands.svg" alt="" class="iconesRedes">
+        </div>
+      </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

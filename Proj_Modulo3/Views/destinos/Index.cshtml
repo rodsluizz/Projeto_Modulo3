@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Proj_Modulo3.Models.destinos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.local_viagem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.valor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.local_viagem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.valor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_destino">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_destino">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_destino">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

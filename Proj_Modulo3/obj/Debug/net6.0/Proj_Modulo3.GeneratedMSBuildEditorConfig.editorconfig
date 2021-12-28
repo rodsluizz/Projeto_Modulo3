@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proj_Modulo3
+build_property.RootNamespace = Proj_Modulo3
+build_property.ProjectDir = C:\Users\MAURICIO\source\repos\Proj_Modulo3\Proj_Modulo3\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MAURICIO\source\repos\Proj_Modulo3\Proj_Modulo3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/destinos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzdGlub3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/destinos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzdGlub3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/destinos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzdGlub3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/destinos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzdGlub3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/destinos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzdGlub3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Home/contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Home/destinos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZXN0aW5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/promocoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvbW9jb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/promocoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvbW9jb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/promocoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvbW9jb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/promocoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvbW9jb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/promocoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvbW9jb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MAURICIO/source/repos/Proj_Modulo3/Proj_Modulo3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xp1z9fk500
